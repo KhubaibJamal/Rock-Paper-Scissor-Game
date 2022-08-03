@@ -1,4 +1,3 @@
-// package Rock Paper Scissor Game;
 package Rock_Paper_Scissor_Game;
 import java.util.*;
 
