@@ -24,19 +24,16 @@ class Game {
                 if (randomNumber == 1){
                     System.out.println("COMPUTER MOVE IS ALSO " + Rock + ".");
                     System.out.println("OHH! GAME IS TIE.");
-                    //IF BOTH NUMBER IS EQUAL
                 }
                 else if (randomNumber == 2){
                     System.out.println("COMPUTER MOVE IS " + Paper + ".");
                     System.out.println("OHH! COMPUTER WINS. TRY NEXT TIME.");
                     System.out.println("ROCK COVER PAPER");
-                    //IF USER = 1 AND RANDOM NUMBER IS 2. SO ROCK COVER PAPER
                 }
                 else if (randomNumber == 3){
                     System.out.println("COMPUTER MOVE IS " + Scissor + ".");
                     System.out.println("CONGRATULATIONS YOU WIN.");
                     System.out.println("ROCK BREAK SCISSOR");
-                    //IF USER = 1 AND RANDOM NUMBER IS 3. SO ROCK BREAK / BEATS SCISSOR
                 }
             }
             else if (upperCase.equals("PAPER")){
@@ -45,18 +42,15 @@ class Game {
                     System.out.println("COMPUTER MOVE IS " + Rock + ".");
                     System.out.println("CONGRATULATIONS YOU WIN.");
                     System.out.println("PAPER FOLD ROCK");
-                    //IF USER = 2 AND RANDOM NUMBER IS 1. SO PAPER FOLD ROCK. PAPER BEAT ROCK
                 }
                 else if (randomNumber == 2){
                     System.out.println("COMPUTER MOVE IS ALSO " + Paper + ".");
                     System.out.println("OHH! GAME IS TIE.");
-                    //IF USER = 2 AND RANDOM NUMBER IS 2. BOTH NUMBER IS EQUAL
                 }
                 else if (randomNumber == 3){
                     System.out.println("COMPUTER MOVE IS " + Scissor + ".");
                     System.out.println("OHH! COMPUTER WINS. TRY NEXT TIME.");
                     System.out.println("PAPER WILL BE CUTS INTO PIECES BY SCISSOR");
-                    //IF USER = 2 AND RANDOM NUMBER IS 3. SO SCISSOR CUT PAPER OR SCISSOR BEATS PAPER
                 }
             }
             else if (upperCase.equals("SCISSOR")){
@@ -65,18 +59,15 @@ class Game {
                     System.out.println("COMPUTER MOVE IS " + Rock + ".");
                     System.out.println("OHH! COMPUTER WINS. TRY NEXT TIME.");
                     System.out.println("ROCK BEAT SCISSOR");
-                    //IF USER = 3 AND RANDOM NUMBER IS 1. SO ROCK BEAT OR BROKE SCISSOR
                 }
                 else if (randomNumber == 2){
                     System.out.println("COMPUTER MOVE IS " + Paper + ".");
                     System.out.println("CONGRATULATIONS YOU WIN.");
                     System.out.println("SCISSOR CUT PAPER INTO PIECES");
-                    //IF USER = 3 AND RANDOM NUMBER IS 2. SO SCISSOR CUT PAPER
                 }
                 else if (randomNumber == 3){
                     System.out.println("COMPUTER MOVE IS ALSO " + Scissor + ".");
                     System.out.println("OHH! GAME IS TIE.");
-                    //IF USER = 3 AND RANDOM NUMBER IS 3. BOTH NUMBER IS EQUAL
                 }
             }
             else {
